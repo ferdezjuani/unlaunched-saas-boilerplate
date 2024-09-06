@@ -71,7 +71,9 @@ export default function FetchDataSteps() {
           </a>{" "}
           and click RUN!
         </p>
-        <CodeBlock code={create} />
+        <div className="py-2">
+          <CodeBlock code={create} />
+        </div>
       </TutorialStep>
 
       <TutorialStep title="Query Supabase data from Next.js">
@@ -83,9 +85,13 @@ export default function FetchDataSteps() {
           </span>{" "}
           and add the following.
         </p>
-        <CodeBlock code={server} />
+        <div className="py-2">
+          <CodeBlock code={server} />
+        </div>
         <p>Alternatively, you can use a Client Component.</p>
-        <CodeBlock code={client} />
+        <div className="py-2">
+          <CodeBlock code={client} />
+        </div>
       </TutorialStep>
 
       <TutorialStep title="Build in a weekend and scale to millions!">
