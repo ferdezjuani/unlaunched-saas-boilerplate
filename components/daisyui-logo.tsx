@@ -21,8 +21,8 @@ export default function DaisyLogo() {
         cy="353.28"
         r="261"
         stroke="black"
-        stroke-opacity="0.2"
-        stroke-width="10"
+        strokeOpacity="0.2"
+        strokeWidth="10"
       />
       <circle cx="512" cy="353.28" r="114.688" fill="#FF9903" />
       <path
