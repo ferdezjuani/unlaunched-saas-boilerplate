@@ -7,7 +7,7 @@ export function TutorialStep({
 }) {
   return (
     <li className="relative">
-      <input type="checkbox" defaultChecked className="checkbox" />
+      <input type="checkbox" className="checkbox" />
       <label
         htmlFor={title}
         className={`relative text-base text-foreground peer-checked:line-through font-medium`}
