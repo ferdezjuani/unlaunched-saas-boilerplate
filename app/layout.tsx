@@ -13,8 +13,8 @@ const defaultUrl = process.env.VERCEL_URL
 
 export const metadata = {
   metadataBase: new URL(defaultUrl),
-  title: "Unlaunched Saas Boilerplate",
-  description: "The fastest way to never launch your Saas ideas",
+  title: "Unlaunched SaaS Boilerplate",
+  description: "The fastest way to never launch your SaaS ideas",
 };
 
 export default async function RootLayout({
@@ -42,7 +42,7 @@ export default async function RootLayout({
                 <div className="w-full max-w-5xl flex justify-between items-center p-3 px-5 text-sm">
                   <div className="w-full flex justify-evenly gap-5 items-center font-semibold">
                     <Link href={"/"} className="font-bold">
-                      Unlaunched Saas Boilerplate
+                      Unlaunched SaaS Boilerplate
                     </Link>
                     <div className="flex items-center gap-2">
                       <GetOnGithubButton />
